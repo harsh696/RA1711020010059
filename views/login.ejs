@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp and Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="signin-jumbotron">
+        <h3>Signin</h3>
+      </div>
+      <div class="container center adminform">
+      <div class="row">
+        <form action="/loginn" method="POST" class="signin-form">
+        <div class="row">
+          
+          <div class="input-field col s12">
+            <input name="username" id="email" type="email" class="validate" value="admin@test.com">
+            <label for="email">Email</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input name="password" id="password" type="password" class="validate" value="test">
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <br>
+        <button class="waves-effect waves-light btn" type="submit">Login</button>
+        
+      </div>
+      </form>
+      </div>
+      <p class="a-signup"><a href="/signup" >Don't Have an Account? SignUp</a></p>
+    </body>
+    </html>
